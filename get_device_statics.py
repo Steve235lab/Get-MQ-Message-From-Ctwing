@@ -25,7 +25,7 @@ def update_info():
     
     # 接收信息并提取有效内容
     try:
-        raw_info = apis.aep_device_status.QueryDeviceStatusList('b5mQ0r3luNc', 'wBI1f4q127', '{"productId":"15145027","deviceId":"a1ed573525d84a9e9c6eaa3b3501fad3"}')
+        raw_info = apis.aep_device_status.QueryDeviceStatusList('', '', '{"productId":"","deviceId":""}')
     except:
         offline_flag = 1
         return -1
