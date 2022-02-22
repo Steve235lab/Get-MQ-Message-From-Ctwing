@@ -10,14 +10,11 @@ Copyright (c) 2022 Steve D. J.. All Rights Reserved.
 """
 
 
-#import sys
-#sys.path.append('..')
-import apis.aep_device_status
+import aep_device_status
 import base64
 import time
 import numpy as np
 import pandas as pd
-#from numpy import nan as NaN
         
 
 def update_info():
